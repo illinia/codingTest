@@ -1,4 +1,4 @@
-let input = ['3 912342'];
+let input = ['3 912'];
 
 let [m, n] = input[0].split(' ').map(value => Number(value));
 
@@ -33,3 +33,5 @@ primeNumbers.forEach(primeNumber => {
 let resultString = "";
 numbers.forEach((value, index) => booleanArr[index] === true && (resultString += value + '\n'));
 console.log(resultString)
+console.log(numbers);
+console.log(booleanArr);
